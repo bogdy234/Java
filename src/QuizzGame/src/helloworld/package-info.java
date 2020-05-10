@@ -1,1 +1,1 @@
-package helloworld;
+package QuizzGame.src.helloworld;
