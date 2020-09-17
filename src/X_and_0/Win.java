@@ -16,7 +16,7 @@ public class Win extends JFrame {
 
     public Win() {
         this.setTitle("X & 0 GAME!");
-        this.setSize(900, 950);
+        this.setSize(600, 650);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -58,8 +58,8 @@ public class Win extends JFrame {
             for (int j = 0; j < 3; j++) {
                 JButton button = new JButton("");
                 button.setFont(font1);
-                button.setBounds(x, y, 300, 300);
-                x += 300;
+                button.setBounds(x, y, 200, 200);
+                x += 200;
                 board[i][j] = button;    // matricea de butoane
                 this.add(button);
 
@@ -85,7 +85,7 @@ public class Win extends JFrame {
 
             }  //end if j
             x = 0;
-            y += 300;
+            y += 200;
         } //end if i
     }  // end function
 
